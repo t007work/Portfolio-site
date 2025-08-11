@@ -8,7 +8,7 @@ const fade = {
 };
 
 export default function Hero({ contact, image = {} }) {
-  const { src = "/hero.png", alt = "Portrait" } = image;
+  const { src = "/hero.jpg", alt = "Portrait" } = image;
 
   return (
     <section
